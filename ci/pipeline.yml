@@ -10,7 +10,7 @@ resources:
   - name: hello_hapi
     type: git
     source: &repo-source
-      uri: https://github.com/your_github_user/hello_hapi
+      uri: https://rarni-pivotal:a2cb7df912bb1408a4946c452f23422399b9aa84@github.com/rarni-pivotal/hello_hapi
       branch: master
   - name: dependency-cache
     type: npm-cache
